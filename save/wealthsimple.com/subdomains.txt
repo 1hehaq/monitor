@@ -1,7 +1,6 @@
 *.mtasks.trebuchet.iad.wealthsimple.com
 *.prod.yul.wealthsimple.com
 *.sidekiq.trebuchet.iad.wealthsimple.com
-*.staging.iad.wealthsimple.com
 *.staging.yul.wealthsimple.com
 *.trebuchet.iad.wealthsimple.com
 *.trebuchet.yul.wealthsimple.com
@@ -28,7 +27,6 @@ atlas-service-staging.wealthsimple.com
 atlas-service.wealthsimple.com
 atlas-staging.wealthsimple.com
 atlas.wealthsimple.com
-bhapi-sign-key-0013t00002P8JgLAAV-002.prod.wealthsimple.com
 bhapi-sign-key-0013t00002p8jglaav-002.prod.wealthsimple.com
 blog.wealthsimple.com
 bref.wealthsimple.com
