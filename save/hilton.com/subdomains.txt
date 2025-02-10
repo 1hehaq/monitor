@@ -411,7 +411,6 @@ dmsweb.hilton.com
 dmswebtest.hilton.com
 dmsws.hilton.com
 dmswstest.hilton.com
-dns:fsprd.hilton.com
 doha.hilton.com
 doubletree.hilton.com
 doubletree1.hilton.com
