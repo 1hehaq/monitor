@@ -1126,7 +1126,6 @@ mspweddings.hilton.com
 mstr.aviprd-ext.hhc.hilton.com
 mstr.hhc.hilton.com
 mstr.hilton.com
-mstr3000.hilton.com
 mstruat.avistg-ext.hhc.hilton.com
 mstruat.hhc.hilton.com
 mstruat.hilton.com
