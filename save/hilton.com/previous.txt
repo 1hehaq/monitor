@@ -456,6 +456,8 @@ dmswebtest.hilton.com
 dmsws.hilton.com
 dmswstest.hilton.com
 dns:fsprd.hilton.com
+dockerhub-dr.hhc.hilton.com
+dockerhub.hilton.com
 doha.hilton.com
 doubletree.hilton.com
 doubletree1.hilton.com
@@ -1126,7 +1128,6 @@ mspweddings.hilton.com
 mstr.aviprd-ext.hhc.hilton.com
 mstr.hhc.hilton.com
 mstr.hilton.com
-mstr3000.hilton.com
 mstruat.avistg-ext.hhc.hilton.com
 mstruat.hhc.hilton.com
 mstruat.hilton.com
@@ -1169,6 +1170,8 @@ newyork.hilton.com
 newyorkfashiondistrict.hilton.com
 newyorkmillenium.hilton.com
 newyorktowers.hilton.com
+nexus-dr.hhc.hilton.com
+nexus.hilton.com
 ngapalibeachresort.hilton.com
 nicosia.hilton.com
 ningbodongqianlakeresort.hilton.com
@@ -1500,6 +1503,8 @@ smtpmail.hilton.com
 soaadmin.hilton.com
 soaprd.hilton.com
 sofia.hilton.com
+sonar-dr.hhc.hilton.com
+sonar.hilton.com
 sonomawinecountry.hilton.com
 sophosafeguard.hilton.com
 spasoft.hilton.com
