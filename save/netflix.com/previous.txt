@@ -183,7 +183,6 @@ api-global.us-east-1.origin.prodaa.netflix.com
 api-global.us-east-1.prodaa.netflix.com
 api-global.us-west-2.origin.prodaa.netflix.com
 api-global.us-west-2.prodaa.netflix.com
-api-int-internal.netflix.com
 api-int-internal.test.netflix.com
 api-internal.netflix.com
 api-internal.test.netflix.com
@@ -338,6 +337,7 @@ blacklist.backlot.netflix.com
 blesk.netflix.com
 blog.dvd.netflix.com
 blog.netflix.com
+blue.prod.netflix.com
 bluray.netflix.com
 bluthquotes.netflix.com
 bob-api.dta.netflix.com
@@ -562,6 +562,7 @@ delta.netflix.com
 depotsearch.netflix.com
 depotsearchapi.netflix.com
 deprecated-partner.netflix.com
+design-tech-real-data.prototypes.netflix.com
 det.catalog.prod.cloud.netflix.com
 dev.awards.netflix.com
 dev.guilds.netflix.com
@@ -1086,6 +1087,7 @@ msg.netflix.com
 mtls.sandbox.partnerapi.netflix.com
 murdock-preview.netflix.com
 murdock.netflix.com
+muse.netflix.com
 mx-ecom.netflix.com
 mx-mktg.netflix.com
 mx-mktgnonmem.netflix.com
@@ -1260,6 +1262,7 @@ nrdp.nccp.uswest-2.prodaa.netflix.com
 nrdp.prod.cloud.netflix.com
 nrdp.prod.dradis.netflix.com
 nrdp.prod.ftl.netflix.com
+nrdp.staging.netflix.com
 nrdp.ws.ale.netflix.com
 nrdp.ws.exp.netflix.com
 nrdp.ws.netflix.com
@@ -1475,7 +1478,6 @@ sbc.netflix.com
 screening.netflix.com
 screeningplayer.netflix.com
 screeningplayert.test.netflix.com
-sctweb.netflix.com
 sec-oc.netflix.com
 secure.dvd.netflix.com
 secure.netflix.com
