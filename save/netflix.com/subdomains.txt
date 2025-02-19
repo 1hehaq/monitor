@@ -1,10 +1,3 @@
-*.api-prod.netflix.com
-*.beta.netflix.com
-*.prod.ftl.netflix.com
-*.prototypes.netflix.com
-*.stage.ftl.netflix.com
-*.stage.netflix.com
-*.staging.ftl.netflix.com
 0-1-3-6.prod.ftl.netflix.com
 03-1-25-6.prod.ftl.netflix.com
 04-1-4-6.prod.ftl.netflix.com
