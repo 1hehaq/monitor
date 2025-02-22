@@ -117,6 +117,7 @@ aidsvc.test.netflix.com
 airmail.netflix.com
 ajay-test-app.netflix.com
 ale.eu-west-1.internal.dradis.netflix.com
+alertprocessor.dta.netflix.com
 alien.netflix.com
 alien2.netflix.com
 aliens.netflix.com
@@ -345,7 +346,6 @@ bouncer.netflix.com
 brand-development.itp.netflix.com
 brand.netflix.com
 brandrep.netflix.com
-builderdash.netflix.com
 builds.netflix.com
 c002.asu001.tigo-pa.netflix.com
 c3po.netflix.com
@@ -1775,7 +1775,6 @@ www.sandbox.us-west-2.origin.prodaa.netflix.com
 www.sandbox.us-west-2.prodaa.netflix.com
 www.segments.itp.netflix.com
 www.segments.netflix.com
-www.stage.netflix.com
 www.us-west-2.internal.dradis.netflix.com
 www1.netflix.com
 www10.netflix.com
@@ -1823,5 +1822,4 @@ xe-2-3-0.jnrt-edge01.dc2.prod.netflix.com
 xe-2-3-0.jnrt-edge01.prod1.netflix.com
 xe-2-3-0.jnrt-edge02.dc2.prod.netflix.com
 xe-2-3-0.jnrt-edge02.prod1.netflix.com
-xe-4-1-3.prod.ftl.netflix.com
 zabbix.itp.netflix.com
