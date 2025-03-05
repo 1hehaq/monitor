@@ -81,6 +81,7 @@ internal.bitgo.com
 intranet.bitgo.com
 kibana.bitgo.com
 kibana2.bitgo.com
+landing.bitgo.com
 marketing-staging.bitgo.com
 marketing.bitgo.com
 nagios.bitgo.com
