@@ -24,6 +24,7 @@ api-cryptopay.bitgo.com
 api-dunamu.bitgo.com
 api-etoro.bitgo.com
 api-etorox.bitgo.com
+api-fold.bitgo.com
 api-gocoin.bitgo.com
 api-gpd.bitgo.com
 api-hbit.bitgo.com
