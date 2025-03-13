@@ -119,8 +119,13 @@ wbtc-tokenization.bitgo.com
 webdev.bitgo.com
 wiki.bitgo.com
 wp.bitgo.com
+www.app.bitgo.com
+www.beer.bitgo.com
 www.bitgo.com
 www.blog.bitgo.com
 www.cdn.bitgo.com
+www.marketing-staging.bitgo.com
+www.marketing.bitgo.com
 www.pinhole.bitgo.com
+www.test.bitgo.com
 wxrp-tokenization.bitgo.com
