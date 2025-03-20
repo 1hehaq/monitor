@@ -1,6 +1,6 @@
 #!/bin/bash
 
-discord_webhook="YOUR_DISCORD_WEBHOOK_URL"
+discord_webhook="$DISCORD_WEBHOOK_URL"
 
 targets_url="https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/refs/heads/main/data/wildcards.txt"
 
