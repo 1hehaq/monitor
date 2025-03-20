@@ -1,36 +1,24 @@
-name: Mass PII Hunt
+name: Mass PII Scan
 
 on:
   schedule:
     - cron: '0 */6 * * *'
-  workflow_run:
-    workflows: ["Continuous Scanner Workflow"]
-    types:
-      - completed
+  workflow_dispatch:
 
 jobs:
-  run-scan:
+  scan:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl wget
+    - name: Set up Bash
+      shell: bash
 
-      - name: Set up Discord Webhook URL from Secrets
-        run: |
-          echo "DISCORD_WEBHOOK_URL=${{ secrets.DISCORD_WEBHOOK_URL }}" >> $GITHUB_ENV
-
-      - name: Continuous Script Execution
-        run: |
-          while true; do
-            chmod +x monitor/mass-pii.sh
-            
-            ./monitor/mass-pii.sh
-            
-            echo "[+] Scan completed. Waiting for the next 6-hour run..."
-            sleep 21600  # Wait for 6 hours before running the script again
-          done
+    - name: Run Mass PII Scan Script
+      env:
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: |
+        chmod +x ./monitor/mass-pii.sh
+        ./monitor/mass-pii.sh
