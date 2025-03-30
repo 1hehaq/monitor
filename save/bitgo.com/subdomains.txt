@@ -119,6 +119,7 @@ transfer.bitgo.com
 wbtc-tokenization.bitgo.com
 webdev.bitgo.com
 wiki.bitgo.com
+wp.bitgo.com
 www.app.bitgo.com
 www.beer.bitgo.com
 www.bitgo.com
