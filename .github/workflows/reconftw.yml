@@ -28,7 +28,7 @@ jobs:
           ./reconftw.sh -d "${{ github.event.inputs.target }}" -a --deep --check-tools -o output
 
       - name: Upload recon results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: reconftw-results
           path: reconftw/output/
