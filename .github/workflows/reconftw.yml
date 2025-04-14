@@ -1,0 +1,34 @@
+name: reconFTW Full Recon
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target domain!'
+        required: true
+        default: 'hackerone.com'
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up environment & clone reconFTW
+        run: |
+          sudo apt update && sudo apt install -y git curl unzip
+          git clone https://github.com/six2dez/reconftw.git
+          cd reconftw
+          chmod +x install.sh reconftw.sh
+          ./install.sh
+
+      - name: Run reconFTW on single target
+        run: |
+          cd reconftw
+          mkdir -p output
+          ./reconftw.sh -d "${{ github.event.inputs.target }}" -a --deep --check-tools -o output
+
+      - name: Upload recon results
+        uses: actions/upload-artifact@v3
+        with:
+          name: reconftw-results
+          path: reconftw/output/
